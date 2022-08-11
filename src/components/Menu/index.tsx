@@ -39,12 +39,12 @@ export default function Menu({ color }: MenuProps) {
             <div ref={menuLayerRef} >
                 <Circle />
             </div>
-            <FiMenu size={56} fontWeight='lighter' color={sectionColor || 'var(--black'} />
+            <FiMenu size={56} fontWeight='lighter' color={sectionColor || 'var(--black)'} />
             <Logo color={sectionColor}>EXP|CON</Logo>
-            <MenuItems ref={menuListRef}>
-                <li>WHAT IS IT</li>
-                <li>PERKS</li>
-                <li>PRICING</li>
+            <MenuItems ref={menuListRef} color={sectionColor || 'var(--black)'}>
+                <li><a href="/">WHAT IS IT</a></li>
+                <li><a href="/pricing">PRICING</a></li>
+                <li><a href="/payment">PAYMENT</a></li>
             </MenuItems>
         </Container>        
     );

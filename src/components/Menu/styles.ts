@@ -110,6 +110,9 @@ export const Logo = styled.h1<LogoProps>`
 
 export const MenuItems = styled.ul`
     display: none;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 `;
-
-
