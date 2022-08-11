@@ -87,7 +87,7 @@ export const CTAButton = styled.button<CTAButtonProps>`
     position: relative;
     transition: background-color 0.5s;
 
-    ${props => css`
+    ${(props) => css`
         color: ${props.color}
     `}
 `;
