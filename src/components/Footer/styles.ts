@@ -34,9 +34,9 @@ export const LogoContainer = styled.div`
 `;
 
 export const Container = styled.div`
-    height: 538px;
+    height: 300px;
     background: var(--purple);
-    padding: 8% 5% 6%;
+    padding: 2% 5% 6%;
 
     @media (max-width: 1366px) {
         p {

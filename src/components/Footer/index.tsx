@@ -10,7 +10,7 @@ export default function Footer() {
             </EmailContainer>
             <LogoContainer>
                 <h1>EXP|CON</h1>
-                <p>2019 © All Rights Reserved | Speer Technologies Incorporated</p>
+                <p>2022 © All Rights Reserved | EXPCON Technologies Incorporated</p>
             </LogoContainer>
         </Container>
     );
